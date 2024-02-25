@@ -1,17 +1,19 @@
 <template>
 <!--  <img alt="Vue logo" src="./assets/logo.png">-->
 <!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-  <HomeIndex></HomeIndex>
+<!--  <HomeIndex></HomeIndex>-->
+    <equipment-price-calculator></equipment-price-calculator>
 
 </template>
 
 <script>
-import HomeIndex from "@/pages/HomeIndex.vue";
+// import HomeIndex from "@/pages/HomeIndex.vue";
+import EquipmentPriceCalculator from "@/pages/equipment-price-calculator.vue";
 
 export default {
   name: 'App',
   components: {
-    HomeIndex
+    EquipmentPriceCalculator
   }
 }
 </script>
